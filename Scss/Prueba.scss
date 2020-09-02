@@ -1,0 +1,33 @@
+@import "header";
+
+
+$azul: #3680dc;
+
+
+div {
+  padding: 3px;
+}
+
+section {
+  $azul: #3680dc;
+
+  background-color: $azul;
+  div {
+    img {
+      max-width: 100%;
+    }
+    .texto {
+      color: blue;
+    }
+  }
+  p {
+    font-size: 13px;
+  }
+}
+
+ul {
+  margin: 10px;
+  li {
+    color: red;
+  }
+}
